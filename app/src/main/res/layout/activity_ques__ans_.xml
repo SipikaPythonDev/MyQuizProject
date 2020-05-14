@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ques_Ans_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:id="@+id/topic"/>
+
+    <TextView
+        android:id="@+id/tx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Here will be question text"
+        android:textAllCaps="false"
+        android:textColor="@color/FFF41E1E"
+        android:textSize="30dp" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdo1"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true">
+
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnc"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="@color/FFF41E1E"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
